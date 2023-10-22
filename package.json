@@ -19,13 +19,7 @@
     "proxy",
     "heroku"
   ],
-  "scripts": {
-    "start": "node server.js"
-    },
-    "dependencies": {
-    "http-proxy": "1.11.1",
-    "proxy-from-env": "0.0.1"
-  },
+  "main": "./lib/cors-anywhere.js",
   "files": [
     "lib/",
     "test/",
@@ -33,6 +27,10 @@
     "demo.html",
     "server.js"
   ],
+  "dependencies": {
+    "http-proxy": "1.11.1",
+    "proxy-from-env": "0.0.1"
+  },
   "devDependencies": {
     "coveralls": "^2.11.6",
     "eslint": "^2.2.0",
