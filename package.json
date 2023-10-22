@@ -20,7 +20,7 @@
     "heroku"
   ],
   "scripts": {
-    "start": "node /lib/cors-anywhere.js"
+    "start": "node server.js"
     },
     "dependencies": {
     "http-proxy": "1.11.1",
