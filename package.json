@@ -28,7 +28,7 @@
     "server.js"
   ],
    "scripts": {
-            "start": "node server.js"
+            "start": "node cors-anywhere.js"
           },
   "dependencies": {
     "http-proxy": "1.11.1",
