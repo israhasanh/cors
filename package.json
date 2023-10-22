@@ -19,7 +19,7 @@
     "proxy",
     "heroku"
   ],
-  "start": "./lib/cors-anywhere.js",
+  "start": "node server.js",
   "files": [
     "lib/",
     "test/",
